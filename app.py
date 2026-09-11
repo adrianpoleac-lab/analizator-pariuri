@@ -4,17 +4,25 @@ import requests
 import streamlit as st
 
 # 🔑 INTRODUCE CHEIA TA API AICI ÎNTRE GHILIMELE
-API_KEY = "349dc3a66d9f69b442ce0740417a7d5a"
+API_KEY = "INTRODUCE_AICI_CHEIA_TA"
 
 LIGI_DISPONIBILE = {
     "🌐 Toate Meciurile Viitoare (Fotbal Global)": "soccer",
+    "🇷🇴 Superliga (România)": "soccer_romania_liga1",
     "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League (Anglia)": "soccer_epl",
     "🇪🇸 La Liga (Spania)": "soccer_spain_la_liga",
     "🇮🇹 Serie A (Italia)": "soccer_italy_serie_a",
     "🇩🇪 Bundesliga (Germania)": "soccer_germany_bundesliga",
     "🇫🇷 Ligue 1 (Franța)": "soccer_france_ligue_one",
+    "🇵🇹 Primeira Liga (Portugalia)": "soccer_portugal_primeira_liga",
+    "🇹🇷 Süper Lig (Turcia)": "soccer_turkey_super_lig",
+    "🇧🇪 First Division A (Belgia)": "soccer_belgium_first_div",
+    "🇳🇱 Eredivisie (Olanda)": "soccer_netherlands_eredivisie",
+    "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Premiership (Scoția)": "soccer_spl",
+    "🇬🇷 Super League (Grecia)": "soccer_greece_super_league",
     "🏆 UEFA Champions League": "soccer_uefa_champs_league",
     "🇪🇺 UEFA Europa League": "soccer_uefa_europa_league",
+    "🇪🇺 UEFA Conference League": "soccer_uefa_conference_league",
 }
 
 
