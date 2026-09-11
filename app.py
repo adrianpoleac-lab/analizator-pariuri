@@ -4,7 +4,7 @@ import requests
 import streamlit as st
 
 # 🔑 INTRODUCE CHEIA TA API AICI ÎNTRE GHILIMELE
-API_KEY = "INTRODUCE_AICI_CHEIA_TA"
+API_KEY = "349dc3a66d9f69b442ce0740417a7d5a"
 
 LIGI_DISPONIBILE = {
     "🌐 Toate Meciurile Viitoare (Fotbal Global)": "soccer",
